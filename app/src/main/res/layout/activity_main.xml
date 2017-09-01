@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to android volly tutorial!!\nChoose a menu option"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get string"/>
+    <Button
+        android:id="@+id/jsonObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get jsonobject"/>
+    <Button
+        android:id="@+id/jsonArray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get jsonarray"/>
+
+    <Button
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get image" />
+</LinearLayout>
